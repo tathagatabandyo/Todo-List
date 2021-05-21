@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- icon add -->
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Google Material Icons cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- link external css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Todo List</title>
+</head>
+
+<body style="background-color: #212529">
+
+
+    <!-- header -->
+    <div class="container-fluid text-white" style="background-color: #000;">
+        <h1 class="text-center p-2">Todo List(Add Task)</h1>
+    </div>
+
+    <div id="section1" class="my-4 px-3">
+
+        <!-- user input -->
+        <div id="s1" class="s">
+            <input id="input-user" class="form-control me-2 mt-4" p type="text" placeholder="Enter Your Task" aria-label="default input example">
+
+            <button id="add-task" type="button" class="btn btn-success flex-md-fill bd-highlight mx-2 mt-4">Add Task</button>
+
+            <button type="button" id="delete-all" class="btn btn-danger ms-2 mt-4">Delete All Task</button>
+        </div>
+
+        <!-- display Task -->
+        <div id="s2" class="table-responsive s mb-4">
+            <table class="table table-dark table-striped table-hover mt-4">
+                
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <details>
+            <summary>Developer details</summary>
+            <span>Developed By Tathagata Bandyopadhyay</span>
+        </details>
+    </footer>
+
+    <!-- link external js file -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
